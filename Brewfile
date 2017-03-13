@@ -1,0 +1,16 @@
+tap 'caskroom/cask'
+
+brew 'git'
+brew 'node'
+brew 'npm'
+
+cask 'flux'
+cask 'google-chrome'
+cask 'vlc'
+cask 'paw'
+cask 'iterm2'
+cask 'docker-toolbox'
+cask 'spotify'
+cask 'google-drive'
+cask 'slack'
+cask 'sublime-text'

@@ -1,0 +1,13 @@
+{
+  "installed_packages":
+  [
+    "Base16 Color Schemes",
+    "JavaScriptNext - ES6 Syntax",
+    "Materialize",
+    "Package Control",
+    "SideBarEnhancements",
+    "SublimeLinter",
+    "SublimeLinter-contrib-eslint",
+    "EditorConfig"
+  ]
+}

@@ -1,0 +1,7 @@
+[user]
+	name = George Wilson
+  email = george@g-wilson.co.uk
+[github]
+  user = g-wilson
+[credential]
+	helper = osxkeychain
