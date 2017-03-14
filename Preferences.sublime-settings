@@ -26,5 +26,6 @@
 	"overlay_scroll_bars": "enabled",
 	"tab_size": 2,
 	"theme": "Material Spacegray Eighties.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"scroll_past_end": true
 }
