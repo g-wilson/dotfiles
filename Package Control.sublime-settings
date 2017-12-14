@@ -8,6 +8,22 @@
     "SideBarEnhancements",
     "SublimeLinter",
     "SublimeLinter-contrib-eslint",
-    "EditorConfig"
+    "EditorConfig",
+    "Case Conversion",
+    "DocBlockr",
+    "Github Tools",
+    "Handlebars",
+    "HTML Page Snippets",
+    "HTML Snippets",
+    "HTML5",
+    "nginx",
+    "Pug",
+    "Sass",
+    "SCSS",
+    "SublimeLinter-contrib-eslint",
+    "SublimeLinter-jscs",
+    "SublimeLinter-jshint",
+    "Tag",
+    "Vuejs Complete Package"
   ]
 }

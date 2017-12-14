@@ -1,0 +1,30 @@
+{
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "editor.fontSize": 13,
+    "editor.lineHeight": 20,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontWeight": "400",
+    "auto-close-tag.SublimeText3Mode": true,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "vsicons.projectDetection.autoReload": true,
+    "files.associations": {
+      "*.vue": "vue"
+    },
+    "workbench.colorTheme": "Base16 Eighties Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
+  }
