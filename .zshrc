@@ -51,7 +51,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew osx sublime github)
+plugins=(git brew osx sublime github httpie zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -91,3 +91,7 @@ DEFAULT_USER="georgew"
 prompt_dir() {
   prompt_segment blue black "%-56<...<%~%<<"
 }
+
+# BBC News headlines!
+alias bbcnews='curl -s http://feeds.bbci.co.uk/news/rss.xml | grep "<title>" | sed "s/            <title><\!\[CDATA\[//g;s/\]\]><\/title>//;" | grep -v "BBC News" | head -n 10'
+

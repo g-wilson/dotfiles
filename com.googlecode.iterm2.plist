@@ -677,13 +677,13 @@
 	<key>NSWindow Frame SUStatusFrame</key>
 	<string>1080 966 400 129 0 0 2560 1418 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>970 770 620 392 0 0 2560 1418 </string>
+	<string>2890 857 620 392 1920 88 2560 1418 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>2881 509 796 473 1920 0 2560 1418 </string>
+	<string>1949 198 918 452 1920 88 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 751 570 427 0 0 1920 1178 </string>
+	<string>763 0 1157 597 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>175 119 650 477 0 0 1680 1028 </string>
+	<string>84 203 913 587 0 0 1920 1178 </string>
 	<key>NeverWarnAboutShortLivedSessions_F2AA9F4C-FA7B-443C-A204-74F4797CF772</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_F2AA9F4C-FA7B-443C-A204-74F4797CF772_selection</key>
@@ -902,9 +902,9 @@
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
-			<true/>
+			<false/>
 			<key>Blur Radius</key>
-			<real>13.790657946114798</real>
+			<real>18.862202569796956</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1431,13 +1431,17 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-02-20T16:11:40Z</date>
+	<date>2018-06-15T11:13:14Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>TabStyle</key>
 	<integer>1</integer>
+	<key>TerminalMargin</key>
+	<integer>15</integer>
+	<key>TerminalVMargin</key>
+	<integer>15</integer>
 	<key>UseBorder</key>
 	<false/>
 	<key>WordCharacters</key>
@@ -1449,7 +1453,7 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.5</string>
+	<string>3.1.6</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
