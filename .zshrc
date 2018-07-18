@@ -95,3 +95,12 @@ prompt_dir() {
 # BBC News headlines!
 alias bbcnews='curl -s http://feeds.bbci.co.uk/news/rss.xml | grep "<title>" | sed "s/            <title><\!\[CDATA\[//g;s/\]\]><\/title>//;" | grep -v "BBC News" | head -n 10'
 
+# Weather!
+function weather() {
+  if [ "$1" != "" ]
+  then
+    curl -s en.wttr.in/$1\?2pmMq | head -n29
+  else
+    curl -s en.wttr.in/London\?2pmMq | head -n29
+  fi
+}
