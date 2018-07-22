@@ -1,30 +1,90 @@
+// Place your settings in this file to overwrite the default settings
 {
-    "window.zoomLevel": 0,
-    "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": true,
-    "editor.fontSize": 13,
-    "editor.lineHeight": 20,
-    "editor.fontFamily": "Source Code Pro",
-    "editor.fontWeight": "400",
-    "auto-close-tag.SublimeText3Mode": true,
-    "editor.tabSize": 2,
-    "editor.minimap.enabled": false,
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/.DS_Store": true,
-        "**/node_modules": true
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#3a3a3a",
+    "panel.background": "#1f1f1f",
+    "sideBar.background": "#1f1f1f",
+
+    "titleBar.activeBackground": "#2d2d2d",
+    "titleBar.activeForeground": "#2d2d2d",
+    "titleBar.inactiveBackground": "#2d2d2d",
+    "titleBar.inactiveForeground": "#9d9d9d"
+  },
+  "window.zoomLevel": 0,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 20,
+  "editor.fontFamily": "'SourceCodePro-Regular'",
+  // "editor.fontSize": 14,
+  // "editor.lineHeight": 22,
+  // "editor.fontFamily": "'SourceCodePro-Light'",
+  "editor.fontWeight": "normal",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.minimap.enabled": false,
+  // "editor.folding": false,
+  "editor.hideCursorInOverviewRuler": true,
+  // "editor.lineNumbers": "off",
+  // "editor.matchBrackets": false,
+  // "editor.occurrencesHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderIndentGuides": false,
+  "editor.renderLineHighlight": "none",
+  "explorer.openEditors.visible": 0,
+  // "workbench.activityBar.visible": false,
+  // "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "vscode-icons",
+  // "workbench.iconTheme": null,
+  // "workbench.editor.showIcons": false,
+  "workbench.colorTheme": "Base16 Eighties Dark",
+  "files.trimTrailingWhitespace": true,
+  "extensions.ignoreRecommendations": false,
+  "html.format.wrapLineLength": 120,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "explorer.autoReveal": false,
+  "terminal.integrated.fontFamily": "'SourceCodePro-Regular'",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.lineHeight": 1,
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "version": "v1",
     },
-    "files.trimTrailingWhitespace": true,
-    "vsicons.projectDetection.autoReload": true,
-    "files.associations": {
-      "*.vue": "vue"
-    },
-    "workbench.colorTheme": "Base16 Eighties Dark",
-    "workbench.iconTheme": "vscode-icons",
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.lineHeight": 1.2,
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline"
-  }
+    "local": {
+      "version": "v1",
+      "sso": "https://sso.tallysticks.io/v1",
+      "api": "http://127.0.0.1:3000",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI4MjBlYmI3MC1jMWU2LTRmNjAtYThmOS1kMzkyY2Y5MGVhNWMiLCJvaWQiOiI2ODNiNjBjMC1hYmZhLTQ4ZDAtOWFkNi03NjIyNmEzODlkNDAiLCJyb2xlcyI6W10sImlhdCI6MTUxNjExMTk3NSwiZXhwIjoxNTE2MTExOTg1LCJpc3MiOiJhcGktZ2F0ZXdheSJ9.QeMA-vvBay-uR48M9h1lumElIcSM6jNQr2x5-ZMAHyg"
+    }
+  },
+  "editor.multiCursorModifier": "alt",
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "jspm_packages" : true,
+    "node_modules" : true,
+    "**/node_modules": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "vetur.validation.template": false,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+}
