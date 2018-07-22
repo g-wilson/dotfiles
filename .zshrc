@@ -9,6 +9,12 @@ export ZSH=/Users/georgewilson/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# Set CLICOLOR if you want Ansi Colors in iTerm2
+export CLICOLOR=1
+
+# Set colors to match iTerm2 Terminal Colors
+export TERM="xterm-256color"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -87,3 +93,5 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
 DEFAULT_USER="georgewilson"
 
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin

@@ -4532,7 +4532,7 @@
 		</dict>
 	</dict>
 	<key>Default Bookmark Guid</key>
-	<string>B2C1EEEF-3FD9-41C7-8992-00E5AB399121</string>
+	<string>4FDABC39-335A-43A9-A991-4B80CC448448</string>
 	<key>DimBackgroundWindows</key>
 	<true/>
 	<key>DimOnlyText</key>
@@ -4592,7 +4592,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>-772 437 699 229 -1680 390 1680 1027 </string>
+	<string>715 585 699 95 0 0 1920 1178 </string>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>436 673 735 382 0 0 1920 1178 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
@@ -4600,9 +4600,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>251 350 606 469 0 0 1920 1178 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>755 524 770 429 0 0 1920 1178 </string>
+	<string>272 517 918 381 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>58 545 570 452 0 0 1920 1178 </string>
+	<string>0 269 780 401 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>999 701 650 477 0 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -4902,14 +4902,16 @@
 			<false/>
 			<key>Foreground Color</key>
 			<dict>
+				<key>Alpha Component</key>
+				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.78431372549019607</real>
+				<real>0.78431373829999995</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.81568627450980391</real>
+				<real>0.8156862855</real>
 				<key>Red Component</key>
-				<real>0.82745098039215681</real>
+				<real>0.82745099070000006</real>
 			</dict>
 			<key>Guid</key>
 			<string>91272100-DBBD-40C8-A6A7-DC8E2504954A</string>
@@ -4917,6 +4919,8 @@
 			<real>0.88883659638554213</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string></string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -5283,7 +5287,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
-			<integer>0</integer>
+			<integer>4</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
@@ -5476,16 +5480,14 @@
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.208465576171875</real>
+				<real>0.41176470588235292</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.208465576171875</real>
+				<real>0.45098039215686275</real>
 				<key>Red Component</key>
-				<real>0.208465576171875</real>
+				<real>0.45490196078431372</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
@@ -5502,16 +5504,14 @@
 			<true/>
 			<key>Background Color</key>
 			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.1869964599609375</real>
+				<real>0.17647058823529413</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.17974017335191661</real>
+				<real>0.17647058823529413</real>
 				<key>Red Component</key>
-				<real>0.15867991838604212</real>
+				<real>0.17647058823529413</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -5532,26 +5532,22 @@
 			</dict>
 			<key>Blend</key>
 			<real>0.50000000000000011</real>
-			<key>Blink Allowed</key>
-			<false/>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
-			<false/>
+			<true/>
 			<key>Blur Radius</key>
 			<real>30</real>
 			<key>Bold Color</key>
 			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.78431372549019607</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.81568627450980391</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.82745098039215681</real>
 			</dict>
 			<key>Bound Hosts</key>
 			<array/>
@@ -5564,19 +5560,17 @@
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Boost</key>
-			<real>0.70328322784810127</real>
+			<real>0.0</real>
 			<key>Cursor Color</key>
 			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.78431372549019607</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>1</real>
+				<real>0.81568627450980391</real>
 				<key>Red Component</key>
-				<real>1</real>
+				<real>0.82745098039215681</real>
 			</dict>
 			<key>Cursor Guide Color</key>
 			<dict>
@@ -5630,11 +5624,13 @@
 				<real>1</real>
 			</dict>
 			<key>Guid</key>
-			<string>B2C1EEEF-3FD9-41C7-8992-00E5AB399121</string>
+			<string>4FDABC39-335A-43A9-A991-4B80CC448448</string>
 			<key>Horizontal Spacing</key>
 			<real>0.88883659638554213</real>
 			<key>Idle Code</key>
 			<integer>0</integer>
+			<key>Initial Text</key>
+			<string></string>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -5930,20 +5926,20 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.824371337890625</real>
+				<real>0.73423302173614502</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.61012381094615609</real>
+				<real>0.35916060209274292</real>
 				<key>Red Component</key>
-				<real>0.40496537555009127</real>
+				<real>0.0</real>
 			</dict>
 			<key>Minimum Contrast</key>
 			<real>0.0</real>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
-			<string>Default Bright</string>
+			<string>New Profile</string>
 			<key>Non Ascii Font</key>
 			<string>Monaco 12</string>
 			<key>Non-ASCII Anti Aliased</key>
@@ -5968,29 +5964,25 @@
 			<integer>1000</integer>
 			<key>Selected Text Color</key>
 			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.9454803466796875</real>
+				<real>0.78431372549019607</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.9454803466796875</real>
+				<real>0.81568627450980391</real>
 				<key>Red Component</key>
-				<real>0.9454803466796875</real>
+				<real>0.82745098039215681</real>
 			</dict>
 			<key>Selection Color</key>
 			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.8206634521484375</real>
+				<real>0.31764705882352939</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.39088454679585993</real>
+				<real>0.31764705882352939</real>
 				<key>Red Component</key>
-				<real>0.78303418946970993</real>
+				<real>0.31764705882352939</real>
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
@@ -6005,7 +5997,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
-			<integer>0</integer>
+			<integer>4</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
@@ -6039,7 +6031,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>04A9DCA2-C18F-4744-83A3-8F25D1E29E23</string>
 	<key>NoSyncLastTipTime</key>
-	<real>532699916.13364899</real>
+	<real>533915665.93245399</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -6119,6 +6111,7 @@
 		<string>0065</string>
 		<string>0066</string>
 		<string>0067</string>
+		<string>0068</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -6168,11 +6161,11 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-11-18T13:09:41Z</date>
+	<date>2017-12-02T13:54:25Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>SmartPlacement</key>
 	<true/>
 	<key>SplitPaneDimmingAmount</key>
@@ -6181,6 +6174,11 @@
 	<false/>
 	<key>TabStyle</key>
 	<integer>1</integer>
+	<key>URLHandlersByGuid</key>
+	<dict>
+		<key>ssh</key>
+		<string>91272100-DBBD-40C8-A6A7-DC8E2504954A</string>
+	</dict>
 	<key>UseBorder</key>
 	<false/>
 	<key>WordCharacters</key>
