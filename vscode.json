@@ -50,17 +50,6 @@
   "terminal.integrated.lineHeight": 1,
   "explorer.confirmDragAndDrop": false,
   "git.autofetch": true,
-  "rest-client.environmentVariables": {
-    "$shared": {
-      "version": "v1",
-    },
-    "local": {
-      "version": "v1",
-      "sso": "https://sso.tallysticks.io/v1",
-      "api": "http://127.0.0.1:3000",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI4MjBlYmI3MC1jMWU2LTRmNjAtYThmOS1kMzkyY2Y5MGVhNWMiLCJvaWQiOiI2ODNiNjBjMC1hYmZhLTQ4ZDAtOWFkNi03NjIyNmEzODlkNDAiLCJyb2xlcyI6W10sImlhdCI6MTUxNjExMTk3NSwiZXhwIjoxNTE2MTExOTg1LCJpc3MiOiJhcGktZ2F0ZXdheSJ9.QeMA-vvBay-uR48M9h1lumElIcSM6jNQr2x5-ZMAHyg"
-    }
-  },
   "editor.multiCursorModifier": "alt",
   "css.validate": false,
   "less.validate": false,
