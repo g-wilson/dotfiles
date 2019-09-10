@@ -62,6 +62,19 @@ plugins=(git brew osx sublime github httpie zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+DEFAULT_USER="georgew"
+
+# Agnoster settings
+# prompt_status(){}
+prompt_context(){
+    prompt_segment blue black "🏎 "
+}
+# prompt_virtualenv(){}
+prompt_dir(){
+    # prompt_segment blue black "%-56<...<%~%<<"
+}
+prompt_git(){}
+# prompt_end(){}
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -81,6 +94,9 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+# gpg
+export GPG_TTY=$(tty)
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -90,16 +106,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
-
-DEFAULT_USER="georgew"
-
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-
-# Truncate directory prompt
-prompt_dir() {
-  prompt_segment blue black "%-56<...<%~%<<"
-}
 
 # BBC News headlines!
 alias bbcnews='curl -s http://feeds.bbci.co.uk/news/rss.xml | grep "<title>" | sed "s/            <title><\!\[CDATA\[//g;s/\]\]><\/title>//;" | grep -v "BBC News" | head -n 10'
@@ -113,3 +119,16 @@ function weather() {
     curl -s en.wttr.in/London\?2pmMq | head -n29
   fi
 }
+
+# fix stupid macos audio issues
+alias killaudio="ps aux | grep 'coreaudio[d]' | awk '{print $2}' | xargs sudo kill"
+
+# secrets config
+source ~/.secrets
+
+# Go stuff
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+# export GOROOT=/usr/local/bin/go
+# export PATH=$PATH:$GOROOT/bin
+eval "$(direnv hook zsh)"
