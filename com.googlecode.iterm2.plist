@@ -690,9 +690,9 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>594 507 928 394 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1024 1663 1262 629 984 1200 3008 1669 </string>
+	<string>2033 219 989 586 1920 131 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>48 116 1031 484 0 0 1920 1177 </string>
+	<string>2003 287 590 474 1920 131 2560 1417 </string>
 	<key>NeverWarnAboutShortLivedSessions_F2AA9F4C-FA7B-443C-A204-74F4797CF772</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_F2AA9F4C-FA7B-443C-A204-74F4797CF772_selection</key>
@@ -1388,30 +1388,32 @@
 						<dict>
 							<key>knobs</key>
 							<dict>
+								<key>abbreviate-localhost</key>
+								<string>local</string>
 								<key>base: compression resistance</key>
 								<integer>1</integer>
 								<key>base: priority</key>
 								<real>5</real>
-								<key>path</key>
-								<string>hostname</string>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
 									<real>1</real>
 									<key>Blue Component</key>
-									<real>0.63</real>
+									<real>0.62999999523162842</real>
 									<key>Color Space</key>
 									<string>sRGB</string>
 									<key>Green Component</key>
-									<real>0.63</real>
+									<real>0.62999999523162842</real>
 									<key>Red Component</key>
-									<real>0.90000000000000002</real>
+									<real>0.89999997615814209</real>
 								</dict>
 							</dict>
 							<key>layout advanced configuration dictionary value</key>
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>font</key>
+								<string>SourceCodeProForPowerline-Semibold 12</string>
 							</dict>
 						</dict>
 					</dict>
@@ -1446,6 +1448,8 @@
 							<dict>
 								<key>algorithm</key>
 								<integer>1</integer>
+								<key>font</key>
+								<string>SourceCodeProForPowerline-Semibold 12</string>
 							</dict>
 						</dict>
 					</dict>
@@ -1664,7 +1668,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>B5339228-E969-4F80-BF34-68B12E8B2FBE</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -2419,7 +2423,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-09-10T09:26:39Z</date>
+	<date>2019-09-10T10:16:41Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
