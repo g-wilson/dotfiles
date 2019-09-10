@@ -632,6 +632,8 @@
 	<false/>
 	<key>HideScrollbar</key>
 	<false/>
+	<key>HideTab</key>
+	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -1394,6 +1396,8 @@
 								<integer>1</integer>
 								<key>base: priority</key>
 								<real>5</real>
+								<key>path</key>
+								<string>hostname</string>
 								<key>shared text color</key>
 								<dict>
 									<key>Alpha Component</key>
@@ -2433,13 +2437,13 @@
 	<key>SoundForEsc</key>
 	<false/>
 	<key>StatusBarPosition</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>TabStyle</key>
 	<integer>1</integer>
 	<key>TabStyleWithAutomaticOption</key>
-	<integer>4</integer>
+	<integer>5</integer>
 	<key>TabViewType</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>TerminalMargin</key>
 	<integer>15</integer>
 	<key>TerminalVMargin</key>
