@@ -57,7 +57,7 @@ export TERM="xterm-256color"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew osx sublime github httpie zsh-autosuggestions)
+plugins=(git brew osx sublime vscode github httpie zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
