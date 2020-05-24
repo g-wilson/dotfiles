@@ -132,3 +132,6 @@ export PATH=$PATH:$GOPATH/bin
 # export GOROOT=/usr/local/bin/go
 # export PATH=$PATH:$GOROOT/bin
 eval "$(direnv hook zsh)"
+
+# TF stuff
+alias tf=terraform
